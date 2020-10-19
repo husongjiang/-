@@ -16,8 +16,8 @@
 召回层一般采用用少量的特征和简单的模型对大规模的数据集进行快速的筛选，而在排序层一般会使用更多的特征和更加复杂的模型进行精准的排序。
 在召回层更重要的考虑是增大召回率，而排序层更需要的考虑是精度更大。
 ### 3、embedding
-##### a text embedding
+##### text embedding
 text embedding是对文本进行编码，用在文本推荐中，比如商品描述信息、新闻信息等。从最初的Word2vec到目前大火的bert，现在编码一般都是基于Bert进行各种改进，都取得了很好的效果。
-##### b image embedding 和 graph embedding
+##### image embedding 和 graph embedding
 image embedding主要用于对图像进行编码，主要用在视频推荐。
 而graph embedding主要用在有向图一类的编码，比如社交网络。
